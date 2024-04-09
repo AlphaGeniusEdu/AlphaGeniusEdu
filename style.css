@@ -617,11 +617,6 @@ p {
 		font-size: 6rem;
 	}
 
-	#full {
-		margin-left: 0px
-		margin-right: 0px
-	}
-
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
@@ -630,6 +625,11 @@ p {
 
 	/* Services Section */
 	#services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+
+	#myTab .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
@@ -723,6 +723,15 @@ p {
 	#header .hamburger {
 		display: none;
 	}
+	#header .nav-list ul {
+		position: initial;
+		display: block;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	
+	}
+
 
 	#mytab {
 		margin-top: -200px
@@ -731,15 +740,6 @@ p {
 
 	#mytabcontent {
 		margin-top: -100px
-	}
-			
-	
-	#header .nav-list ul {
-		position: initial;
-		display: block;
-		height: auto;
-		width: fit-content;
-		background-color: transparent;
 	}
 	#header .nav-list ul li {
 		display: inline-block;
