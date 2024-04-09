@@ -617,6 +617,11 @@ p {
 		font-size: 6rem;
 	}
 
+	#full {
+		margin-left: auto
+		margin-right:auto
+	}
+
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
@@ -720,7 +725,7 @@ p {
 	}
 
 	#mytab {
-		margin-top: -50px
+		margin-top: -125px
 	}
 	
 	#header .nav-list ul {
