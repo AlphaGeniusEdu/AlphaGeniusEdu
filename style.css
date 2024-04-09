@@ -726,7 +726,13 @@ p {
 
 	#mytab {
 		margin-top: -200px
+		margin-bottom: auto
 	}
+
+	#mytabcontent {
+		margin-top: -100px
+	}
+			
 	
 	#header .nav-list ul {
 		position: initial;
