@@ -618,8 +618,8 @@ p {
 	}
 
 	#full {
-		margin-left: auto
-		margin-right:auto
+		margin-left: 0px
+		margin-right: 0px
 	}
 
 	/* Hero */
@@ -725,7 +725,7 @@ p {
 	}
 
 	#mytab {
-		margin-top: -125px
+		margin-top: -200px
 	}
 	
 	#header .nav-list ul {
