@@ -29,19 +29,19 @@ img {
 #myTab {
 margin-top: -750px;
 margin-bottom: auto;
-margin-left:auto;
-margin-right:auto;
+position: sticky;
+
 }
 
 #myTabContent {
 margin-bottom: auto;
 margin-top: -795px;
-margin-left:auto;
-margin-right:auto;
+position: sticky;
 }
 
 #section_4 {
 margin-top: -450px;
+position: sticky;
 }
 
 
@@ -116,6 +116,7 @@ p {
 #header {
 	position: fixed;
 	z-index: 1000;
+        right: 0;
 	left: 0;
 	top: 0;
 	width: 100vw;
